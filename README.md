@@ -21,6 +21,12 @@ If the project name was "2021-11-05: Bonfire Night" then the tasks would be sche
 
 This example will schedule tasks in project 2265853802 relative to the date 1 January 2022, and ignore any date provided in the project name.
 
-## Requirements
+## Setup
 
 You will need to obtain your own Todoist API key. Copy and paste this key into `apikey.conf` (see `apikey_template.conf` for the correct format)
+
+## Project ID numbers
+
+To find your project ID number, access your project in the web app and it will be at the end of the URL.
+
+eg. `https://todoist.com/app/project/2265853802`
