@@ -45,8 +45,12 @@ eg. `https://todoist.com/app/project/2265853802`
 
 ## Labels
 
-The first character must be a `+` or `-`
-The last character must be a `d` (for days) or `w` (for weeks)
-The middle characters must be digits.
+* The first character must be a `+` or `-`
+* The last character must be a `d` (for days) or `w` (for weeks)
+* The middle characters must be digits.
 
 The label format is defined as a regular expression in the `regex_label_name` variable.
+
+`-12w` represents 12 weeks before the project date
+
+`+3d` represents 3 days after the project date
