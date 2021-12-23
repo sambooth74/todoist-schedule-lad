@@ -15,10 +15,10 @@ I have a project called "2021-11-05: Bonfire Night". The project ID number is 11
 
 Inside are 4 tasks:
 
-* Collect wood (label -1w)
-* Build bonfire (label -1d)
-* Light bonfire (+0d)
-* Clean up (+1d)
+* Collect wood (label `-1w`)
+* Build bonfire (label `-1d`)
+* Light bonfire (label `+0d`)
+* Clean up (label `+1d`)
 
 I run the script using the following command line...
 
